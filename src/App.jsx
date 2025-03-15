@@ -1,4 +1,4 @@
-import Header from "./components/header";
+import Header from "./components/Header";
 import SaveResume from "./components/SaveResume";
 import GeneralInformation from "./components/GeneralInformation";
 import EducationExperience from "./components/EducationExperience";
