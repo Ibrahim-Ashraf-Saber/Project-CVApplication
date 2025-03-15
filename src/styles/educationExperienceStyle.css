@@ -1,0 +1,31 @@
+.container {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 10px 5px rgb(200, 200, 200);
+    border-radius: 10px;
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.expandIcon {
+    cursor: pointer;
+}

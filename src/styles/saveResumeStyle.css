@@ -1,0 +1,28 @@
+.containter {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 10px 5px rgb(200, 200, 200);
+    border-radius: 10px;
+    height: 70px;
+}
+
+.containter button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #d80665;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.containter button:hover {
+    background-color: #a5034c;
+}

@@ -1,0 +1,90 @@
+.containerr {
+    background-color: white;
+    height: 29.7cm;
+    width: 21cm;
+    overflow: hidden;
+}
+
+.sec-1 {
+    background-color: #0e374e;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 50px 0;
+}
+
+.sec-1 .your-name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sec-1 .your-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sec-1 .your-info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.sec-1 i {
+    color: white;
+    font-size: 18px;
+}
+
+.sec-2 {
+    font-size: 18px;
+    margin: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.sec-2 .header-title {
+    width: 100%;
+    text-align: center;
+    background-color: #eef0f4;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    color: #0e374e;
+}
+
+.sec-2 .sec2-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.sec-2 .sec2-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+} 
+
+.sec-2 .sec2-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+} 
+
+.sec-2 .sec2-right .uni {
+    font-weight: bold;
+}
+
+.desc {
+    width: 400px;
+    overflow-wrap: break-word;
+}
