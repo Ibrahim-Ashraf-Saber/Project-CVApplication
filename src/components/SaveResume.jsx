@@ -3,18 +3,19 @@ import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
 function SaveResume() {
+  // Help With Chat GPT To Print Function
   const handlePrint = () => {
     const input = document.getElementById("cv");
 
     html2canvas(input, {
-      scale: 2, // زيادة الدقة للشاشات عالية الدقة
-      useCORS: true, // إذا كنت تستخدم صور من مصادر خارجية
+      scale: 2,
+      useCORS: true,
     }).then((canvas) => {
       const imgData = canvas.toDataURL("image/png");
       const pdf = new jsPDF({
-        orientation: "portrait", // أو 'landscape' إذا كنت تريد اتجاه أفقي
+        orientation: "portrait",
         unit: "mm",
-        format: "a4", // أو أي حجم آخر تريده
+        format: "a4",
       });
 
       const imgWidth = pdf.internal.pageSize.getWidth();
