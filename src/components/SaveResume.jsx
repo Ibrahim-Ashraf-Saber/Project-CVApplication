@@ -6,6 +6,8 @@ function SaveResume() {
   // Help With Chat GPT To Print Function
   const handlePrint = () => {
     const input = document.getElementById("cv");
+    input.style.width = "21cm";
+    input.style.height = "29.7cm";
 
     html2canvas(input, {
       scale: 2,
